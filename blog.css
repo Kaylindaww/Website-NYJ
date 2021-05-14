@@ -1,0 +1,99 @@
+body{
+    background-color:antiquewhite;
+    background-attachment:scroll;
+   color: black;
+   background-image: url("myimage/you.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+   #contents{
+    color: gray;
+    padding: 50px;
+    margin: 100px;
+    border: mediumaquamarine;
+}
+.nav {
+    overflow: hidden;
+    text-align: center;
+    padding-left: 400px;
+    background-color:white;
+  }
+  
+  .nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    background-color:white;
+  }
+  li{
+      display: inline;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+  
+  }
+  
+  .nav a.active {
+    background-color: #04AA6D;
+    color: black;
+  }
+  #head{
+    padding-right: 25%;
+    margin-top: 12%;
+  }
+  #footer{
+    background-color:white;
+    padding: 50px;
+    color: gray;
+    text-align: center;
+    font-size: medium;
+  }
+  .div{
+   width: 100px;
+   height: 100px;
+   background: white;
+   transition-property: height;
+   transition-duration: 2s;
+  }
+  .div:hover{
+    height: 300px;
+  }
+  img{
+    width: 400px;
+    height: 300px;
+  }
+  .boarder{
+    
+      width: 600px;
+      padding: 20px;
+      margin: 20px;
+      border: 3px solid black;
+      text-align: center;
+     background-color: burlywood;
+      background-size: cover;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-position: center;
+     
+  
+  }
+  .blog{
+    text-align: center;
+    margin-left: 250px;
+  }
+  
+  #foot{
+    background-color:white;
+    padding: 50px;
+    color: goldenrod;
+    text-align: center;
+    font-size: medium;
+  }
+  
+  

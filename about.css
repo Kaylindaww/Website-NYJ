@@ -1,0 +1,141 @@
+#contents{
+    color:black;
+    text-align: top right;
+    font-size: medium;
+    font-style: italic;
+    direction: rtl;
+    font-size: x-large;
+    padding-bottom: 60px;
+    flex-direction:column;
+    padding-right: 25%;
+    margin-top: 18%;
+    height: 100%;
+    
+    
+}
+body{
+    background-color:gray;
+    background-attachment: scroll;
+    background-position:center ;
+    background-size: cover;
+    color: black;
+    background-image: url("myimage/cup.jpg");
+   
+}
+#content1{
+   font-style: italic; 
+   padding-bottom: 5%;
+}
+li {
+    display: inline;
+    background-color: white;
+
+ }
+ nav {
+  overflow: hidden;
+  text-align: center;
+  padding-left: 400px;
+  background-color: white;
+}
+
+.nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  align-items: center;
+  background-color: white;
+}
+li{
+    display: inline;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+
+}
+
+.nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+  
+  #foot{
+    background-color:white;
+    padding: 60px;
+    color: gray;
+    text-align: center;
+    font-size: medium;
+  }
+ img {
+   
+  width: 400px;
+  height: 400px;
+  padding: center;
+  border-radius: 50%;
+
+  } 
+  #contents{
+    float: right;
+    margin: 10px;
+  }
+  /* .column{
+  height: 700px;
+  width: 80%;
+  border-radius: 20px;
+  content: "";
+  }
+
+  /* .row::after{
+
+  /* } */ 
+  /* .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    font-size: 20px;
+    font-style: italic;
+    
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  p::first-letter{
+    text-decoration: overline;
+    font-size: 250%;
+    color: brown;
+  }
+  #cont{
+    font-size: medium;
+    padding-bottom: 4%;
+    text-align: left;
+
+  }
+  h1{
+    padding-bottom: 5%;
+  text-decoration-color: brown;
+  }
